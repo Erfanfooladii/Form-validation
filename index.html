@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 class="tit">Register form</h3>
+    <div class="cont">
+        <form action="pg2/pagi2.html" id="frm" onsubmit="return formval()">
+
+            <input type="text" name="username" placeholder="Username" class="sh ai1"><br>
+    
+            <input type="text" name="phon" placeholder="Number phone" class="sh ai2"><br>
+    
+            <input type="text" name="email" placeholder="Email" class="sh ai3"><br>
+    
+            <input type="password" name="password" placeholder="Password" class="sh ai4"><br>
+    
+            <input type="submit" value="Register" class="btn">
+
+            <div class="err" id="erfa" style="opacity: 0; transition: 0.35s;">
+                <strong>Erorr!</strong>
+            </div>
+
+        </form>
+                
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
